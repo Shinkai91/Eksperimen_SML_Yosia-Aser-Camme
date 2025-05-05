@@ -64,10 +64,10 @@ def preprocess_dataset(file_path, save_path=None):
 
 def main():
     # Path ke dataset mentah
-    raw_dataset_path = r'C:\Users\Shinkai\Pictures\SMSML_Yosia-Aser-Camme\Eksperimen_SML_Yosia-Aser-Camme\Air-Quality_raw.csv'
+    raw_dataset_path = r'C:\Users\Shinkai\Pictures\Eksperimen_SML_Yosia-Aser-Camme\Air-Quality_raw.csv'
     
     # Path untuk menyimpan dataset hasil preprocessing
-    processed_dataset_path = r'C:\Users\Shinkai\Pictures\SMSML_Yosia-Aser-Camme\Eksperimen_SML_Yosia-Aser-Camme\preprocessing\Air-Quality_preprocessing.csv'
+    processed_dataset_path = r'C:\Users\Shinkai\Pictures\Eksperimen_SML_Yosia-Aser-Camme\preprocessing\Air-Quality_preprocessing.csv'
     
     # Memproses dataset
     print("Memulai proses preprocessing dataset...")
