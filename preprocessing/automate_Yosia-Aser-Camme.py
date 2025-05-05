@@ -17,7 +17,7 @@ def preprocess_dataset(file_path, save_path=None):
     
     # 1. Mengisi Nilai Kosong (Missing Values)
     if dataset.isnull().values.any():
-        print("Dataset memiliki nilai kosong. Mengisi nilai kosong...")
+        print("Dataset memiliki nilai kosong. Mengisi nilai kosong....")
         for col in dataset.columns:
             if dataset[col].dtype in ['float64', 'int64']:
                 dataset[col].fillna(dataset[col].mean(), inplace=True)  # Isi dengan rata-rata
