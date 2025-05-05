@@ -79,5 +79,5 @@ def main():
     print(processed_data.head())
 
 if __name__ == "__main__":
-    # Menjalankan fungsi utama
+    # Menjalankan fungsi main
     main()
